@@ -1,0 +1,98 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>SVG</title>
+        <link rel="stylesheet" href="demo.css">
+        <style>
+            svg{
+                fill: lightblue;
+                width: 200px;
+                height: 200px;
+            }
+
+            p{
+                font-size: 12px;
+            }
+        </style>
+    </head>
+    <body>
+        <svg class="icons" aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <defs>
+                <symbol id="icon-defense-icon" viewBox="0 0 32 32">
+                    <title>defense-icon</title>
+                    <path d="M5.163 1.434h21.889v17.059c0 0 0.521 12.046-10.945 12.22-11.465 0.172-10.944-12.221-10.944-12.221v-17.058z"></path>
+                </symbol>
+                <symbol id="icon-divination-icon" viewBox="0 0 38 32">
+                    <title>divination-icon</title>
+                    <path d="M6.231 19.793l-5.303 6.909c-1.253 1.633 0.077 3.834 2.318 3.834h31.898c2.282 0 3.604-2.272 2.268-3.899l-5.625-6.844h-25.556z"></path>
+                    <path d="M32.621 15.088c0 7.518-6.095 13.612-13.612 13.612s-13.612-6.095-13.612-13.612c0-7.518 6.095-13.612 13.612-13.612s13.612 6.095 13.612 13.612z"></path>
+                </symbol>
+                <symbol id="icon-herbology-icon" viewBox="0 0 32 32">
+                    <title>herbology-icon</title>
+                    <path d="M8.265 30.945h9.732c0 0-4.408-27.145 6.96-29.466 0 0-7.68-0.389-8.653 7.116 0 0-3.813-8.357-9.493-7.343 0 0 9.493 6.653 8.073 10.873s-6.618 18.82-6.618 18.82z"></path>
+                </symbol>
+                <symbol id="icon-potion-icon" viewBox="0 0 32 32">
+                    <title>potion-icon</title>
+                    <path d="M23.578 2.241h-16.278c-0.134 0-0.244-0.109-0.244-0.244v-0.764c0-0.134 0.109-0.244 0.244-0.244h16.278c0.134 0 0.244 0.109 0.244 0.244v0.764c0 0.134-0.109 0.244-0.244 0.244zM19.361 2.241h-7.229v11.997h7.229v-11.997zM15.747 11.931c-6.329 0-11.459 4.279-11.459 9.556s5.131 9.556 11.459 9.556 11.459-4.279 11.459-9.556-5.131-9.556-11.459-9.556z"></path>
+                </symbol>
+                <symbol id="icon-astronomy-icon" viewBox="0 0 32 32">
+                    <title>astronomy-icon</title>
+                    <path d="M15.939 10.979l1.047-0.406 4.733 18.448-1.047 0.406-4.733-18.448zM16.277 10.979l-1.047-0.406-4.733 18.448 1.047 0.406 4.733-18.448z"></path>
+                    <path d="M15.559 10.328h1.098v19.343h-1.098v-19.343z"></path>
+                    <path d="M29.808 8.395l-27.276 5.398-0.794-6.057 27.276-5.398c0.294-0.059 0.572 0.188 0.619 0.549l0.622 4.747c0.048 0.362-0.153 0.703-0.447 0.761z"></path>
+                </symbol>
+            </defs>
+        </svg>
+
+        <header class="bgc1 clearfix">
+        <div class="mhl">
+            <p>Harry Potter Classes Icons</p>
+        </div>
+        </header>
+            <div class="clearfix mhl ptl">
+                <div class="glyph fs1">
+                    <div class="clearfix pbs">
+                        <svg class="icon icon-defense-icon"><use xlink:href="#icon-defense-icon"></use></svg>
+                        <span class="name">Defense Against the Dark Arts</span>
+                        <p>In this class, students learn how to magically defend themselves Against
+                            Dark creatures, the Dark Arts, and other dark charms.
+                        </p>
+                    </div>
+                </div>
+                <div class="glyph fs1">
+                    <div class="clearfix pbs">
+                        <svg class="icon icon-divination-icon"><use xlink:href="#icon-divination-icon"></use></svg>
+                        <span class="name">Divination</span>
+                        <p>In this class, students learn how to divine the future and gather insights 
+                            into future events using various rituals and tools.
+                        </p>
+                    </div>
+                </div>
+                <div class="glyph fs1">
+                    <div class="clearfix pbs">
+                        <svg class="icon icon-herbology-icon"><use xlink:href="#icon-herbology-icon"></use></svg>
+                        <span class="name">Herbology</span>
+                        <p>In this class, students study magical and mundane plants and fungi.</p>
+                    </div>
+                </div>
+                <div class="glyph fs1">
+                    <div class="clearfix pbs">
+                        <svg class="icon icon-potion-icon"><use xlink:href="#icon-potion-icon"></use></svg>
+                        <span class="name">Potions</span>
+                        <p>In this class, students learn the correct way to brew potions.</p>
+                    </div>
+                </div>
+                <div class="glyph fs1">
+                    <div class="clearfix pbs">
+                        <svg class="icon icon-astronomy-icon"><use xlink:href="#icon-astronomy-icon"></use></svg>
+                        <span class="name">Astronomy</span>
+                        <p>In this class, students study the stars and the movement of the planets.</p>
+                    </div>
+                </div>
+        </div>
+        <script defer src="svgxuse.js"></script>
+    </body>
+</html>
